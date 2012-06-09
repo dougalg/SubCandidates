@@ -1,0 +1,312 @@
+TSubCandidates
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist SubCandidates/SubCandidates-Info.plist
+cCopyStringsFile /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/InfoPlist.strings SubCandidates/en.lproj/InfoPlist.strings
+cCpResource SubCandidates/en.lproj/Credits.rtf DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib
+cProcessPCH /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch SubCandidates/SubCandidates-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates normal x86_64
+cTouch /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F88F4E70000000000006560
+t1334375655
+s25952
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FAF8E8A0000000000942520
+t1336905354
+s9708832
+
+N/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004EF2842A0000000000001534
+t1324516394
+s5428
+
+N/System/Library/Frameworks/InputMethodKit.framework/Headers/InputMethodKit.h
+c000000004DDD60CF0000000000000121
+t1306353871
+s289
+
+N/Users/dgraham/Documents/workspace/SubCandidates/../../../../../System/Library/Frameworks/InputMethodKit.framework/InputMethodKit
+c000000004F88F4F4000000000006F690
+t1334375668
+s456336
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch
+t1339170125
+s41283600
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o
+t1339217632
+s7620
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidates.LinkFileList
+c000000004FD21D4A00000000000002E0
+t1339170122
+s736
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o
+t1339213703
+s4856
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o
+t1339218680
+s55092
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o
+t1339214260
+s8804
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app
+t1339218680
+s102
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist
+t1339218675
+s1707
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates
+t1339218680
+s40196
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/PkgInfo
+t1339218675
+s8
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf
+t1339218675
+s436
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1339218675
+s92
+
+N/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/MainMenu.nib
+t1339218679
+s1238
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.h
+c000000004FD2C7410000000000000114
+t1339213633
+s276
+i<Foundation/Foundation.h>
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m
+c000000004FD2D652000000000000039A
+t1339217490
+s922
+i"ConversionEngine.h"
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidates-Prefix.pch
+c000000004FD17395000000000000009D
+t1339126677
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.h
+c000000004FD1773E000000000000029C
+t1339127614
+s668
+i<Cocoa/Cocoa.h>
+i"ConversionEngine.h"
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m
+c000000004FD2C3B4000000000000013A
+t1339212724
+s314
+i"SubCandidatesAppDelegate.h"
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.h
+c000000004FD2C73600000000000006FB
+t1339213622
+s1787
+i<Foundation/Foundation.h>
+i<InputMethodKit/InputMethodKit.h>
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m
+c000000004FD2DAEC0000000000005596
+t1339218668
+s21910
+i"SubCandidatesInputController.h"
+i"SubCandidatesAppDelegate.h"
+i"ConversionEngine.h"
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/Credits.rtf
+c000000004FD1739500000000000001B4
+t1339126677
+s436
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/InfoPlist.strings
+c000000004FD17395000000000000002D
+t1339126677
+s45
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib
+c000000004FD180F50000000000001992
+t1339130101
+s6546
+
+N/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m
+c000000004FD2C8C90000000000000A97
+t1339214025
+s2711
+i<Cocoa/Cocoa.h>
+i<InputMethodKit/InputMethodKit.h>
+
+NSubCandidates/SubCandidates-Info.plist
+c000000004FD2C2240000000000000592
+t1339212324
+s1426
+
+CBuild AST from /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m
+r0
+
+CBuild AST from /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m
+r0
+
+CBuild AST from /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m
+r0
+
+CBuild AST from /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies552f577f1283b541^5cc8577f1283b541^---0#1#0#--18"Check dependencies36"E06B9E33-34D2-4C96-A322-5DD092F86F42-
+
+CCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s360910432.035027
+e360910432.222912
+r1
+xCompileC
+xDerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o
+x/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m620f09600e83b541^261939600e83b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m0000000000000000^2286"CompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o SubCandidates/ConversionEngine.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-generated-files.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-own-target-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-all-target-headers.hmap -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-project-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources/x86_64 -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -include /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch -c /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/ConversionEngine.m -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/ConversionEngine.o36"CCDF4B63-2EF1-407F-AB38-A795BE966AD4-
+
+CCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s360906503.184400
+e360906503.361839
+r1
+xCompileC
+xDerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o
+x/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.mb24c2f07ff82b541^16a15c07ff82b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m0000000000000000^2318"CompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o SubCandidates/SubCandidatesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-generated-files.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-own-target-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-all-target-headers.hmap -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-project-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources/x86_64 -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -include /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch -c /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesAppDelegate.m -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesAppDelegate.o36"994A4C87-18A0-448A-892E-0F0C360E5DA5-
+
+CCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s360911479.839314
+e360911480.129454
+r1
+xCompileC
+xDerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o
+x/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m73f6d6771283b541^f22421781283b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m0000000000000000^2334"CompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o SubCandidates/SubCandidatesInputController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-generated-files.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-own-target-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-all-target-headers.hmap -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-project-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources/x86_64 -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -include /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch -c /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidatesInputController.m -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidatesInputController.o36"3E906C2E-EE6C-431F-AA47-15B5C9ABD31A-
+
+CCompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s360907060.576744
+e360907060.997475
+r1
+xCompileC
+xDerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o
+x/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m72bf93340183b541^d95aff340183b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m0000000000000000^2238"CompileC DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o SubCandidates/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-generated-files.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-own-target-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-all-target-headers.hmap -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-project-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources/x86_64 -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -include /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch -c /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/main.m -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/main.o36"37708E74-8946-4439-AA7E-C995DBF11096-
+
+CCompileXIB /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib
+s360911475.471920
+e360911479.821577
+r1
+xCompileXIB
+x/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xibc00579731283b541^7e8bd2771283b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib0000000000000000^580"CompileXIB SubCandidates/en.lproj/MainMenu.xib    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/MainMenu.nib /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/MainMenu.xib --sdk ""36"5E368F8E-B0DB-426A-A910-1411F40F4803-
+
+CCopyStringsFile /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/InfoPlist.strings SubCandidates/en.lproj/InfoPlist.strings
+s360911475.467355
+e360911475.470776
+r1
+xCopyStringsFile
+x/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/InfoPlist.strings
+xSubCandidates/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy SubCandidates/en.lproj/InfoPlist.stringsccb277731283b541^9f9178731283b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/InfoPlist.strings0000000000000000^500"CopyStringsFile DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/InfoPlist.strings SubCandidates/en.lproj/InfoPlist.strings    cd /Users/dgraham/Documents/workspace/SubCandidates    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj -- SubCandidates/en.lproj/InfoPlist.strings36"8CFB294B-F04C-4152-9514-3AC006AA716F-
+
+CCpResource SubCandidates/en.lproj/Credits.rtf DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf
+s360911475.467792
+e360911475.470984
+r1
+xCpResource
+xSubCandidates/en.lproj/Credits.rtf
+xDerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf25cd77731283b541^81b378731283b541^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^671"CpResource SubCandidates/en.lproj/Credits.rtf DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/dgraham/Documents/workspace/SubCandidates    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/en.lproj/Credits.rtf /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Resources/en.lproj36"293F0E8A-0840-49BE-971E-9CF814BBC967-
+
+CLd /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates normal x86_64
+s360911480.137174
+e360911480.182887
+r1
+xLd
+x/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Link /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidatesd73023781283b541^20d32e781283b541^---0#0#0#--906"Ld DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates normal x86_64    cd /Users/dgraham/Documents/workspace/SubCandidates    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -L/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -L/Users/dgraham/Documents/workspace/SubCandidates -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -filelist /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/Objects-normal/x86_64/SubCandidates.LinkFileList -framework Cocoa -framework InputMethodKit -framework Foundation -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/MacOS/SubCandidates36"F0C8E1AA-57B2-491F-A5C2-D20709E8C850-
+
+CProcessInfoPlistFile /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist SubCandidates/SubCandidates-Info.plist
+s360911475.456076
+e360911475.459875
+r1
+xProcessInfoPlistFile
+x/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist
+xSubCandidates/SubCandidates-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process SubCandidates/SubCandidates-Info.plist57d074731283b541^876d77731283b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidates-Info.plist0000000000000000^587"ProcessInfoPlistFile DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist SubCandidates/SubCandidates-Info.plist    cd /Users/dgraham/Documents/workspace/SubCandidates    builtin-infoPlistUtility SubCandidates/SubCandidates-Info.plist -genpkginfo /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app/Contents/Info.plist36"8C647344-7D38-4729-AC85-96DC96EF4714-
+
+CProcessPCH /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch SubCandidates/SubCandidates-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s360862923.369412
+e360862925.801287
+r1
+xProcessPCH
+x/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch
+xSubCandidates/SubCandidates-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SubCandidates/SubCandidates-Prefix.pch2aaa5ecb5482b541^6341cdcd5482b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidates-Prefix.pch0000000000000000^2131"ProcessPCH DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch SubCandidates/SubCandidates-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/dgraham/Documents/workspace/SubCandidates    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-generated-files.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-own-target-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-all-target-headers.hmap -iquote /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/SubCandidates-project-headers.hmap -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources/x86_64 -I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/SubCandidates.build/Debug/SubCandidates.build/DerivedSources -F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug -c /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidates-Prefix.pch -o /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Intermediates/PrecompiledHeaders/SubCandidates-Prefix-gtpqoznowfkeqwfxqonvnvxykdql/SubCandidates-Prefix.pch.gch36"8DCA53D4-74A7-4EC5-9BA8-97A7B728591B-
+
+CProcessPCH /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Index/PrecompiledHeaders/SubCandidates-Prefix-aweyveunpnytbqaggnldxyjptbyp_ast/SubCandidates-Prefix.pch.pth SubCandidates/SubCandidates-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Index/PrecompiledHeaders/SubCandidates-Prefix-damlkzznkpvfbedctfiwwgybnvyl_ast/SubCandidates-Prefix.pch.pth SubCandidates/SubCandidates-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app
+s360911480.191290
+e360911480.196773
+r1
+xTouch
+x/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app030a31781283b541^a26032781283b541^---0#0#0#--263"Touch DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app    cd /Users/dgraham/Documents/workspace/SubCandidates    /usr/bin/touch -c /Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/SubCandidates.app36"CD1E9EF7-FCE4-40E7-84A1-766A27FE1D06-
+

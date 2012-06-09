@@ -1,0 +1,20 @@
+Contents of /Users/dgraham/Documents/workspace/SubCandidates/SubCandidates/SubCandidates-Prefix.pch
+4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.9.00)
+i686-apple-darwin11
+-x
+objective-c
+-arch
+x86_64
+-fmessage-length=0
+-pipe
+-std=gnu99
+-fpascal-strings
+-O0
+-fasm-blocks
+-gdwarf-2
+-fvisibility=hidden
+-iquote
+-iquote
+-I/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug/include
+-F/Users/dgraham/Documents/workspace/SubCandidates/DerivedData/SubCandidates/Build/Products/Debug
+SDK_PRODUCT_BUILD_VERSION=11E53
