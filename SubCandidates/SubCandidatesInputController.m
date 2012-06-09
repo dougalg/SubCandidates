@@ -189,6 +189,8 @@ extern IMKCandidates* subCandidates;
 	[buffer setString:string];
 }
 
+#pragma mark - Selectors
+
 // This method is called to see if your input method handles an NSResponder action.
 -(BOOL)didCommandBySelector:(SEL)aSelector client:(id)sender
 {
@@ -330,6 +332,8 @@ extern IMKCandidates* subCandidates;
     }
 }
 
+#pragma mark - Converting
+
 // This method converts buffered text based on the trigger string.  If we did convert the text previously insert the converted text with
 // the trigger string appended to the converted text.  
 // If we have not done a previous conversion check to see if the input string is a space.  If it is convert the text mark it in the client, and remember that we did do a conversion.
@@ -410,6 +414,8 @@ extern IMKCandidates* subCandidates;
 	}
 	return handled;
 }
+
+#pragma mark - Selection
 
 // Moves the candidate selection to the next one down
 - (void)selectNextCandidate {
