@@ -51,13 +51,13 @@ extern IMKCandidates* subCandidates;
     // Return YES to indicate the the key input was received and dealt with.  Key processing will not continue in that case.
     // In other words the system will not deliver a key down event to the application.
     // Returning NO means the original key down will be passed on to the client.
-    BOOL					inputHandled = NO;
+    BOOL                    inputHandled = NO;
     // The parser is an NSScanner
-    NSScanner*				scanner = [NSScanner scannerWithString:string];
+    NSScanner*              scanner = [NSScanner scannerWithString:string];
     // Check the input.  If it is possibly part of a decimal number remember that.
     NSString*               resultString;
     // Let's imagine that we only want to accept alphanumeric entries
-    BOOL					isInLetterSet = [scanner scanCharactersFromSet:[NSCharacterSet characterSetWithCharactersInString:@"aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"] intoString:&resultString];
+    BOOL                    isInLetterSet = [scanner scanCharactersFromSet:[NSCharacterSet characterSetWithCharactersInString:@"aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"] intoString:&resultString];
     // Holds the line number
     int                     theLineNumber = 0;
 
@@ -127,21 +127,21 @@ extern IMKCandidates* subCandidates;
 
 -(void)commitComposition:(id)sender 
 {
-	NSString*		text = [self composedBuffer];
-	
-	if ( text == nil || [text length] == 0 )
-		text = [self originalBuffer];
-	
+    NSString*		text = [self composedBuffer];
+
+    if ( text == nil || [text length] == 0 )
+        text = [self originalBuffer];
+    
     // Dismiss subCandidates if visible
     if (subCandidates && [subCandidates isVisible] == YES)
         [candidates hideChild];
     
-	[sender insertText:text replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
-	
-	[self setComposedBuffer:@""];
-	[self setOriginalBuffer:@""];
-	_insertionIndex = 0;
-	_didConvert = NO;
+    [sender insertText:text replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+    
+    [self setComposedBuffer:@""];
+    [self setOriginalBuffer:@""];
+    _insertionIndex = 0;
+    _didConvert = NO;
     _didShowCandidates = NO;
     _subCandidatesExist = NO;
     _subCandidateData = nil;
@@ -150,43 +150,43 @@ extern IMKCandidates* subCandidates;
 // Return the composed buffer.  If it is NIL create it.  
 -(NSMutableString*)composedBuffer;
 {
-	if ( _composedBuffer == nil ) {
-		_composedBuffer = [[NSMutableString alloc] init];
-	}
-	return _composedBuffer;
+    if ( _composedBuffer == nil ) {
+        _composedBuffer = [[NSMutableString alloc] init];
+    }
+    return _composedBuffer;
 }
 
 // Change the composed buffer.
 -(void)setComposedBuffer:(NSString*)string
 {
-	NSMutableString*		buffer = [self composedBuffer];
-	[buffer setString:string];
+    NSMutableString*		buffer = [self composedBuffer];
+    [buffer setString:string];
 }
 
 
 // Get the original buffer.
 -(NSMutableString*)originalBuffer
 {
-	if ( _originalBuffer == nil ) {
-		_originalBuffer = [[NSMutableString alloc] init];
-	}
-	return _originalBuffer;
+    if ( _originalBuffer == nil ) {
+        _originalBuffer = [[NSMutableString alloc] init];
+    }
+    return _originalBuffer;
 }
 
 // Add newly input text to the original buffer.
 -(void)originalBufferAppend:(NSString*)string client:(id)sender
 {
-	NSMutableString*		buffer = [self originalBuffer];
-	[buffer appendString: string];
-	_insertionIndex++;
-	[sender setMarkedText:buffer selectionRange:NSMakeRange(0, [buffer length]) replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+    NSMutableString*		buffer = [self originalBuffer];
+    [buffer appendString: string];
+    _insertionIndex++;
+    [sender setMarkedText:buffer selectionRange:NSMakeRange(0, [buffer length]) replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
 }
 
 // Change the original buffer.
 -(void)setOriginalBuffer:(NSString*)string
 {
-	NSMutableString*		buffer = [self originalBuffer];
-	[buffer setString:string];
+    NSMutableString*		buffer = [self originalBuffer];
+    [buffer setString:string];
 }
 
 #pragma mark - Selectors
@@ -195,30 +195,30 @@ extern IMKCandidates* subCandidates;
 -(BOOL)didCommandBySelector:(SEL)aSelector client:(id)sender
 {
     if ([self respondsToSelector:aSelector]) {
-		// The NSResponder methods like insertNewline: or deleteBackward: are
-		// methods that return void. didCommandBySelector method requires
-		// that you return YES if the command is handled and NO if you do not. 
-		// This is necessary so that unhandled commands can be passed on to the
-		// client application. For that reason we need to test in the case where
-		// we might not handle the command.
-		
-		//
-		//The test here is simple.  Test to see if any text has been added to the original buffer.
-		NSString*		bufferedText = [self originalBuffer];
-		if ( bufferedText && [bufferedText length] > 0 ) {
-			if (aSelector == @selector(insertNewline:) ||
+        // The NSResponder methods like insertNewline: or deleteBackward: are
+        // methods that return void. didCommandBySelector method requires
+        // that you return YES if the command is handled and NO if you do not. 
+        // This is necessary so that unhandled commands can be passed on to the
+        // client application. For that reason we need to test in the case where
+        // we might not handle the command.
+        
+        //
+        //The test here is simple.  Test to see if any text has been added to the original buffer.
+        NSString*		bufferedText = [self originalBuffer];
+        if ( bufferedText && [bufferedText length] > 0 ) {
+            if (aSelector == @selector(insertNewline:) ||
                 aSelector == @selector(deleteBackward:) ||
                 aSelector == @selector(cancelOperation:) ||
                 aSelector == @selector(moveUp:) ||
                 aSelector == @selector(moveDown:) ||
                 aSelector == @selector(moveRight:) ||
                 aSelector == @selector(moveLeft:)) {
-				[self performSelector:aSelector withObject:sender];
-				return YES; 
-			}
-		}
+                [self performSelector:aSelector withObject:sender];
+                return YES; 
+            }
+        }
     }
-	return NO;
+    return NO;
 }
 
 // When the left arrow key is pressed
@@ -282,20 +282,20 @@ extern IMKCandidates* subCandidates;
 // hide the subCandidates in visible
 - (void)deleteBackward:(id)sender
 {
-	NSMutableString*		originalText = [self originalBuffer];
-	//NSArray*				convertedStrings;
-	//NSString*				convertedString;
-	
+    NSMutableString*		originalText = [self originalBuffer];
+    //NSArray*				convertedStrings;
+    //NSString*				convertedString;
+    
     if (candidates && [candidates isVisible] == YES) {
         [candidates hide];
     }
     if (subCandidates && [subCandidates isVisible] == YES) {
         [candidates hideChild];
     }
-	if ( _insertionIndex > 0 && _insertionIndex <= [originalText length] ) {
-		--_insertionIndex;
-		[originalText deleteCharactersInRange:NSMakeRange(_insertionIndex,1)];
-		
+    if ( _insertionIndex > 0 && _insertionIndex <= [originalText length] ) {
+        --_insertionIndex;
+        [originalText deleteCharactersInRange:NSMakeRange(_insertionIndex,1)];
+        
         /* Once preferences are implemented we can add a mode to allow this style of typing
          * where the deleting shows the Thai rather than the romanized version
          
@@ -305,10 +305,10 @@ extern IMKCandidates* subCandidates;
          } else {
          convertedString = originalText;
          }*/
-		
-		[self setComposedBuffer:originalText];
-		[sender setMarkedText:originalText selectionRange:NSMakeRange(_insertionIndex, 0) replacementRange:NSMakeRange(NSNotFound,NSNotFound)];
-	}
+        
+        [self setComposedBuffer:originalText];
+        [sender setMarkedText:originalText selectionRange:NSMakeRange(_insertionIndex, 0) replacementRange:NSMakeRange(NSNotFound,NSNotFound)];
+    }
 }
 
 // When using the escape key
@@ -340,17 +340,17 @@ extern IMKCandidates* subCandidates;
 // If the input text is not a string.  Commit the composition, and then insert the input string.
 - (BOOL)convert:(NSString*)trigger client:(id)sender
 {
-	NSString*				originalText = [self originalBuffer];
-	NSString*				convertedString = [self composedBuffer];
-	NSArray*				convertedStrings;
-	BOOL					handled = NO;
-	
-	if ( _didConvert && convertedString && [convertedString length] > 0  ) {
-		
-		if ( candidates ) {
+    NSString*				originalText = [self originalBuffer];
+    NSString*				convertedString = [self composedBuffer];
+    NSArray*				convertedStrings;
+    BOOL					handled = NO;
+    
+    if ( _didConvert && convertedString && [convertedString length] > 0  ) {
+        
+        if ( candidates ) {
             // If candidates aren't visible, set them up and show them
             // This should be the 2nd press of space
-			if ( ([trigger isEqual: @" "] && _didShowCandidates == NO) || _didShowCandidates == YES ) {
+            if ( ([trigger isEqual: @" "] && _didShowCandidates == NO) || _didShowCandidates == YES ) {
                 _currentClient = sender;
                 
                 [candidates show:kIMKLocateCandidatesBelowHint];
@@ -375,44 +375,44 @@ extern IMKCandidates* subCandidates;
                 }
             }
             handled = YES;
-		}
-		else {
-			
-			NSString*		completeString = [convertedString stringByAppendingString:trigger];
-			
-			[sender insertText:completeString replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
-			
-			[self setComposedBuffer:@""];
-			[self setOriginalBuffer:@""];
-			_insertionIndex = 0;
-			_didConvert = NO;
-			handled = YES;
-		}
-		
-	}
-	else if ( originalText && [originalText length] > 0 ) {
-		convertedStrings = [[[NSApp delegate] conversionEngine] convert:originalText];
-		
-		if ([convertedStrings count] > 0) {
-			convertedString = [convertedStrings objectAtIndex:0];
-		} else {
-			convertedString = originalText;
-		}
-		[self setComposedBuffer:convertedString];
-		
+        }
+        else {
+            
+            NSString*		completeString = [convertedString stringByAppendingString:trigger];
+            
+            [sender insertText:completeString replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+            
+            [self setComposedBuffer:@""];
+            [self setOriginalBuffer:@""];
+            _insertionIndex = 0;
+            _didConvert = NO;
+            handled = YES;
+        }
+        
+    }
+    else if ( originalText && [originalText length] > 0 ) {
+        convertedStrings = [[[NSApp delegate] conversionEngine] convert:originalText];
+        
+        if ([convertedStrings count] > 0) {
+            convertedString = [convertedStrings objectAtIndex:0];
+        } else {
+            convertedString = originalText;
+        }
+        [self setComposedBuffer:convertedString];
+        
         // First press of space converts the text
-		if ( [trigger isEqual: @" "] ) {
-			[sender setMarkedText:convertedString selectionRange:NSMakeRange(_insertionIndex, 0) replacementRange:NSMakeRange(NSNotFound,NSNotFound)];
-			_didConvert = YES;
+        if ( [trigger isEqual: @" "] ) {
+            [sender setMarkedText:convertedString selectionRange:NSMakeRange(_insertionIndex, 0) replacementRange:NSMakeRange(NSNotFound,NSNotFound)];
+            _didConvert = YES;
             _didShowCandidates = NO;
-		}
-		else {
-			[self commitComposition:sender];
-			[sender insertText:trigger replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
-		}
-		handled = YES;
-	}
-	return handled;
+        }
+        else {
+            [self commitComposition:sender];
+            [sender insertText:trigger replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+        }
+        handled = YES;
+    }
+    return handled;
 }
 
 #pragma mark - Selection
@@ -455,14 +455,14 @@ extern IMKCandidates* subCandidates;
 - (NSArray*)candidates:(id)sender
 {
     NSArray*                mainCandidates = [NSArray array];
-	ConversionEngine*		engine = [[NSApp delegate] conversionEngine];
-	NSString*				originalString = [self originalBuffer];
+    ConversionEngine*		engine = [[NSApp delegate] conversionEngine];
+    NSString*				originalString = [self originalBuffer];
     
     _subCandidateData = [NSArray array];
     _subCandidatesExist = NO;
-	
-	// Build the array of candidates by converting the original text
-	mainCandidates = [engine convert:originalString];
+    
+    // Build the array of candidates by converting the original text
+    mainCandidates = [engine convert:originalString];
     
     // and we'll just generate the data the same way
     _subCandidateData = [engine convert:@"Some subCandidates"];
@@ -527,8 +527,8 @@ extern IMKCandidates* subCandidates;
  */
 - (void)candidateSelected:(NSAttributedString*)candidateString
 {
-	[self setComposedBuffer:[candidateString string]];
-	[self commitComposition:_currentClient];
+    [self setComposedBuffer:[candidateString string]];
+    [self commitComposition:_currentClient];
 }
 
 -(void)dealloc {

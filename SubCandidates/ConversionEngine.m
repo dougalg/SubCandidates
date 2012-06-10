@@ -12,7 +12,7 @@
 
 -(void)awakeFromNib
 {
-	// Do any set up you need to do..
+    // Do any set up you need to do..
 }
 
 // This assumes that for each string entered there are multiple possible return values,

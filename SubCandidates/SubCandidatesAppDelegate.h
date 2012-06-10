@@ -13,7 +13,7 @@
 //can be accessed by any of the controllers.
 //Note that the ConversionEngine is instantiated automatically because we said to instantiate the engine object in Interface Builder.
 @interface SubCandidatesAppDelegate : NSObject {
-	IBOutlet ConversionEngine*			_conversionEngine;
+    IBOutlet ConversionEngine*			_conversionEngine;
 }
 
 -(ConversionEngine*)conversionEngine;
