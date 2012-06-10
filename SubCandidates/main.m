@@ -22,7 +22,15 @@ IMKCandidates*		candidates = nil;
 IMKCandidates*		subCandidates = nil;
     
 int main(int argc, char *argv[])
-{   
+{
+   	// Logging
+	char *val_buf, path_buf[155];
+	
+	val_buf = getenv("HOME");
+	sprintf(path_buf,"%s/Library/Logs/SubCandidates.log",val_buf);
+	freopen(path_buf,"a",stderr);
+	// #Logging
+    
     NSString*       identifier;
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     

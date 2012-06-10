@@ -29,7 +29,7 @@
         [theResults addObject: theString];
     }
     [theResults addObject:string];
-    return theResults;
+    return [theResults autorelease];
 }
 
 -(void)dealloc {

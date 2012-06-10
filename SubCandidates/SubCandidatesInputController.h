@@ -31,6 +31,8 @@
     BOOL                            _subCandidatesExist;
 }
 
+//@property (nonatomic, retain) NSMutableString* _subCandidateData;
+
 //These are simple methods for managing our composition and original buffers
 //They are all simple wrappers around basic NSString methods.
 -(NSMutableString*)composedBuffer;

@@ -454,18 +454,18 @@ extern IMKCandidates* subCandidates;
 
 - (NSArray*)candidates:(id)sender
 {
-    NSArray*                mainCandidates = [NSArray array];
+    NSArray*                mainCandidates;
     ConversionEngine*		engine = [[NSApp delegate] conversionEngine];
     NSString*				originalString = [self originalBuffer];
     
-    _subCandidateData = [NSArray array];
+    [_subCandidateData release];
     _subCandidatesExist = NO;
     
     // Build the array of candidates by converting the original text
     mainCandidates = [engine convert:originalString];
     
     // and we'll just generate the data the same way
-    _subCandidateData = [engine convert:@"Some subCandidates"];
+    _subCandidateData = [[NSArray arrayWithArray:[engine convert:@"Some subCandidates"]] retain];
     
     // We'll add the trigger to the submenu in final or 9th position (index 8), whichever is lower
     if ([mainCandidates count] > 0) {
@@ -486,7 +486,7 @@ extern IMKCandidates* subCandidates;
         [self setComposedBuffer:[theCandidates objectAtIndex:0]];
         return theCandidates;
     } else {
-        return [NSArray array];
+        return nil;
     }
 }
 
